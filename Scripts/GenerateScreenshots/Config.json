@@ -395,7 +395,29 @@
           ],
           "prefix": "translated_",
           "fields": [
+            "input_1",
             "text_2"
+          ]
+        },
+        {
+          "table": "tx_styleguide_elements_basic",
+          "tableConvert": "ignore",
+          "screens": [
+            {
+              "view": "fields",
+              "selectRecord": {
+                "by": "sys_language_uid",
+                "sys_language_uid": {
+                  "table" : "sys_language",
+                  "by": "title",
+                  "title": "styleguide demo language french"
+                }
+              }
+            }
+          ],
+          "prefix": "french_",
+          "fields": [
+            "input_1"
           ]
         },
         {
