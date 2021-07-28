@@ -12,3 +12,4 @@ Properties
    Label
    Description
    Showitem
+   Line breaks
